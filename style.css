@@ -3,8 +3,16 @@ body{
     color:#ece5f0;
 
 }
-.navigation li a {
+/* .navigation{
+    background-color: #131112
+} */
+.navigation li a,h5 {
    color:#ece5f0;
+   font-size: 2rem;
+   
+}
+.navigation {
+    height: 10vh;
 }
 .banner-container {
     display: flex;
