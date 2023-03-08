@@ -1,5 +1,6 @@
 body{
     background-color: #03113e;
+    color:#ece5f0;
 
 }
 .banner-container {
@@ -24,6 +25,9 @@ body{
     50% {background-image: url(./images/logo3.png);}
     100%  {background-image: url(./images/logo2.png);}
  
+}
+.about-me-skills-container{
+    min-width: 400px;
 }
 
 .banner-text, .icons {
