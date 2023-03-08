@@ -1,0 +1,31 @@
+body{
+    background-color: #03113e;
+
+}
+.banner-container {
+    display: flex;
+    justify-content: center;
+
+}
+.banner {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100vh;
+    background-position: center;
+    animation-name: banner;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes banner{
+    0% {background-image: url(./images/logo1.png);}
+    50% {background-image: url(./images/logo3.png);}
+    100%  {background-image: url(./images/logo2.png);}
+ 
+}
+
+.banner-text, .icons {
+    color: #ece5f0;
+}
