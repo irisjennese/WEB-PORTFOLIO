@@ -33,3 +33,7 @@ body{
 .banner-text, .icons {
     color: #ece5f0;
 }
+.works {
+    height: 20vh;
+    width: 30vw;
+}
