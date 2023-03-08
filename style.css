@@ -1,7 +1,10 @@
 body{
-    background-color: #03113e;
+    background-color: #131112;
     color:#ece5f0;
 
+}
+.navigation li a {
+   color:#ece5f0;
 }
 .banner-container {
     display: flex;
