@@ -3,18 +3,17 @@ body{
     color:#ece5f0;
     margin: 0;
 
-}
-/* .navigation{
-    background-color: #131112
-} */
-.navigation li a,h5 {
-   color:#ece5f0;
-   font-size: 2rem;
-   
+
 }
 .navigation {
     height: 10vh;
 }
+
+.navigation li a,h5 {
+   color:#ece5f0;
+   font-size: 2rem;
+}
+
 
 .banner-container {
     display: flex;
@@ -39,11 +38,17 @@ body{
     100%  {background-image: url(./images/logo2.png);}
  
 }
+
+.hero-section {
+    height: 40vh;
+}
+
+.heading-text{
+    height: 5vh;
+}
 .about-me-skills-container{
     min-width: 375px;
-    height: 40vh;
-
-    
+    height: 30vh;
 }
 
 .details {
@@ -66,5 +71,9 @@ body{
 }
 .works {
     height: 40vh;
-    width: 30vw;
+    width: 35vw;
+}
+
+footer{
+    height: 10vh;
 }
