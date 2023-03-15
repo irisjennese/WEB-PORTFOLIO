@@ -43,7 +43,6 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    border-bottom: 10px double gray;
 
 }
 
@@ -87,13 +86,7 @@ a:hover{
     height: 30vh;
     width: 90vw;
 }
-/* .skills{
-    margin-top: 20px;
-    width: 80%;
-    border-left: 10px double gray;
-    margin-left: 10%;
-    padding-left: 5%;
-} */
+
 .skills-title{
     margin: auto ;
     
@@ -105,16 +98,14 @@ a:hover{
 }
 .banner-text, .icons {
     color: #ece5f0;
-    /* text-shadow:0 0 10px  #42e7ff; */
 }
 .works-img{
-    height: 90%;
-    width:60%;
+    width: 25%;
     margin: auto;
 }
 .projects-section{
 
-    height: 50vh;
+    height: 40vh;
     width: 100vw;
 }
 .projects-container{
