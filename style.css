@@ -38,7 +38,24 @@ body{
     100%  {background-image: url(./images/logo2.png);}
  
 }
+.name{
+    animation-name: nameanimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-bottom: 10px double gray;
 
+}
+
+a:hover{
+    text-shadow:0 0 20px  #42e7ff
+}
+
+@keyframes nameanimation{
+0% {text-shadow: none;}
+50%  {text-shadow:0 0 10px  #42e7ff;}
+100%  {text-shadow:0 0 20px  #42e7ff;}
+}
 .hero-section {
     height: 40vh;
 }
@@ -68,6 +85,7 @@ body{
 }
 .skills-container{
     height: 30vh;
+    width: 90vw;
 }
 /* .skills{
     margin-top: 20px;
@@ -87,48 +105,30 @@ body{
 }
 .banner-text, .icons {
     color: #ece5f0;
+    /* text-shadow:0 0 10px  #42e7ff; */
 }
-.works {
-    width: 50vw;
+.works-img{
+    height: 90%;
+    width:60%;
+    margin: auto;
+}
+.projects-section{
+
     height: 50vh;
+    width: 100vw;
 }
-.image-container{
-  position:relative;
-  height:100%;
-  width:100%;
-  margin:0 auto;
-}
-
-@keyframes cf3FadeInOut {
-    0% {
-        opacity: 1;
-    }
-
-    45% {
-        opacity: 1;
-    }
-
-    55% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
-    }
+.projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.image-container img.top {
-    animation-name: cf3FadeInOut;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-    animation-direction: alternate;
-}
 
-.image-container img {
-    position: absolute;
-    left: 0;
-}
+
+/* .works {
+    height: 50vh;
+    width: 60vw;
+} */
 
 footer {
     height: 10vh;
