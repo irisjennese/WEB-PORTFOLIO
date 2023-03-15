@@ -11,7 +11,7 @@ body{
 
 .navigation li a,h5 {
    color:#ece5f0;
-   font-size: 2rem;
+   font-size: 1.6rem;
 }
 
 
@@ -45,21 +45,40 @@ body{
 
 .heading-text{
     height: 5vh;
+    color: #42e7ff;
 }
-.about-me-skills-container{
-    min-width: 375px;
-    height: 30vh;
+.about-me-container {
+    width: 90vw;
+    
 }
 
+.about-me-skills-text {
+    margin-left:7%;
+}
+
+.about-me-skills{
+    margin-top: 20px;
+    width: 80%;
+    border-left: 10px double gray;
+    margin-left: 10%;
+    padding-left: 5%;
+}
 .details {
     margin: 5% auto;
 }
-.skills{
-    width: 80%;
+.skills-container{
+    height: 30vh;
 }
+/* .skills{
+    margin-top: 20px;
+    width: 80%;
+    border-left: 10px double gray;
+    margin-left: 10%;
+    padding-left: 5%;
+} */
 .skills-title{
-    margin: 10px;
-    padding:10px;
+    margin: auto ;
+    
 }
 
 .skills li {
@@ -70,10 +89,54 @@ body{
     color: #ece5f0;
 }
 .works {
-    height: 40vh;
-    width: 35vw;
+    width: 50vw;
+    height: 50vh;
+}
+.image-container{
+  position:relative;
+  height:100%;
+  width:100%;
+  margin:0 auto;
 }
 
-footer{
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    55% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.image-container img.top {
+    animation-name: cf3FadeInOut;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+
+.image-container img {
+    position: absolute;
+    left: 0;
+}
+
+footer {
     height: 10vh;
+}
+
+@media screen and (min-width:481px) {
+    .about-me-container {
+        height: 60vh;
+        width: 90vw;
+    }    
 }
