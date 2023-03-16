@@ -80,7 +80,7 @@ a:hover{
     padding-left: 5%;
 }
 .details {
-    margin: 5% auto;
+    margin: 5% 0 auto;
 }
 .skills-container{
     height: 30vh;
@@ -89,6 +89,7 @@ a:hover{
 
 .skills-title{
     margin: auto ;
+    text-transform: uppercase;
     
 }
 
@@ -99,9 +100,15 @@ a:hover{
 .banner-text, .icons {
     color: #ece5f0;
 }
+
 .works-img{
     width: 25%;
     margin: auto;
+    min-width: 300px;
+}
+
+.image-container  {
+    margin-top: 20px;
 }
 .projects-section{
 
@@ -113,13 +120,6 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-
-
-
-/* .works {
-    height: 50vh;
-    width: 60vw;
-} */
 
 footer {
     height: 10vh;
